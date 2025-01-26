@@ -4,7 +4,7 @@ This is a SMS Spam Detector built using **Natural Language Processing (NLP)** te
 
 ## Features
 
-- Detects spam messages using a pre-trained machine learning model.
+- Detects spam messages using a pre-trained machine learning model. 
 - Text preprocessing with tokenization, stopword removal, and lemmatization.
 - Interactive web interface for easy SMS input and spam detection.
 
@@ -42,39 +42,39 @@ This is a SMS Spam Detector built using **Natural Language Processing (NLP)** te
 
 ## How It Works
 
-Input: Enter your SMS message in the input box.
-Processing: The SMS is preprocessed (lowercased, tokenized, stopwords removed, and lemmatized).
-Prediction: The pre-trained machine learning model predicts whether the message is spam or not.
-Output: The result is displayed on the screen.
+Input: Enter your SMS message in the input box. <br>
+Processing: The SMS is preprocessed (lowercased, tokenized, stopwords removed, and lemmatized). <br>
+Prediction: The pre-trained machine learning model predicts whether the message is spam or not. <br>
+Output: The result is displayed on the screen. <br>
 
 ## Example
-Input: Congratulations! You have won a $1000 gift card. Reply YES to claim.
+Input: Congratulations! You have won a $1000 gift card. Reply YES to claim. <br>
 
-Output: This SMS is SPAM
+Output: This SMS is SPAM <br>
 
-Input: Hi John, can we reschedule the meeting to 3 PM?
-
+Input: Hi John, can we reschedule the meeting to 3 PM? <br>
+ 
 Output: This SMS is not SPAM
 
 ## Project Structure
 
-sms-spam-detector/
-│
-├── app.py              # Streamlit app code
-├── vectorizer.pkl      # Saved CountVectorizer object
-├── model.pkl           # Trained machine learning model
-├── requirements.txt    # List of dependencies
-├── README.md           # Project documentation
+sms-spam-detector/ <br>
+│ <br>
+├── app.py              # Streamlit app code <br>
+├── vectorizer.pkl      # Saved CountVectorizer object <br>
+├── model.pkl           # Trained machine learning model <br>
+├── requirements.txt    # List of dependencies <br>
+├── README.md           # Project documentation <br>
 
 
 ## Model Details
 The machine learning model was trained using:
 
-RandomForestClassifier: Achieving an accuracy of 98% on the test dataset.
-Feature Extraction: Character-level n-grams (3 to 4 characters).
-Preprocessing: Lowercasing, tokenization, stopword removal, and lemmatization.
+RandomForestClassifier: Achieving an accuracy of 98% on the test dataset. <br>
+Feature Extraction: Character-level n-grams (3 to 4 characters). <br>
+Preprocessing: Lowercasing, tokenization, stopword removal, and lemmatization. <br>
 
 ## Acknowledgments
-NLTK for text preprocessing tools.
-scikit-learn for machine learning.
-Streamlit for the interactive web application framework.
+NLTK for text preprocessing tools. <br>
+scikit-learn for machine learning. <br>
+Streamlit for the interactive web application framework. <br>
