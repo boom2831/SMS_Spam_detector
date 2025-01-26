@@ -50,7 +50,7 @@ if st.button('Predict'):
     print(prediction)
     #st.write(prediction)
 
-    if prediction == 1:
+    if prediction == 0:
         st.write('This SMS is SPAM')
     else:
         st.write('This SMS is not SPAM')
