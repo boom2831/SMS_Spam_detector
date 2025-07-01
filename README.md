@@ -4,7 +4,7 @@ This is a SMS Spam Detector built using **Natural Language Processing (NLP)** te
 
 ## Features
 
-- Detects spam messages using a pre-trained machine learning model. 
+- Detects spam messages using a trained machine learning model. 
 - Text preprocessing with tokenization, stopword removal, and lemmatization.
 - Interactive web interface for easy SMS input and spam detection.
 
