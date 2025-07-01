@@ -26,19 +26,25 @@ This is a SMS Spam Detector built using **Natural Language Processing (NLP)** te
     pip install -r requirements.txt
 
 3. Download the necessary NLTK datasets:
+   
     import nltk
+
     nltk.download('stopwords')
+
     nltk.download('punkt')
+
     nltk.download('wordnet')
 
-4. Ensure the following files are in the project directory:
-    vectorizer.pkl: The saved CountVectorizer object.
-    model.pkl: The saved machine learning model.
+5. Ensure the following files are in the project directory:
 
-5. Run the app:
+   vectorizer.pkl: The saved CountVectorizer object.
+
+   model.pkl: The saved machine learning model.
+
+7. Run the app: 
     streamlit run app.py
 
-6. Open your browser and go to http://localhost:8501 to access the app.
+8. Open your browser and go to http://localhost:8501 to access the app.
 
 ## How It Works
 
